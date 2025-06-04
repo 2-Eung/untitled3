@@ -1,16 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        boolean a = false;
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
+        while (a) {
+            System.out.println("실행");
         }
 
-        int j = 0;
-
-        while (j < 5) {
-            System.out.println(j);
-            j++;
-        }
+        do {
+            System.out.println("실행");
+        } while (a);
 
     }
 }
